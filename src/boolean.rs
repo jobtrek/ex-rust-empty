@@ -18,6 +18,7 @@
 /// | 1 | 1 |  0  |
 pub fn nand(first: bool, second: bool) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Test if none of the inputs are true
@@ -38,6 +39,7 @@ pub fn nand(first: bool, second: bool) -> bool {
 /// | 1 | 1 |  0  |
 pub fn nor(first: bool, second: bool) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Test if either one of the 2 inputs are true but not both
@@ -58,6 +60,7 @@ pub fn nor(first: bool, second: bool) -> bool {
 /// | 1 | 1 |  0  |
 pub fn xor(first: bool, second: bool) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Test if both inputs are true or both are false
@@ -78,6 +81,7 @@ pub fn xor(first: bool, second: bool) -> bool {
 /// | 1 | 1 |  1  |
 pub fn xnor(first: bool, second: bool) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Test if the first number is a multiple of the second number
@@ -90,6 +94,7 @@ pub fn xnor(first: bool, second: bool) -> bool {
 /// ```
 pub fn is_multiple(number: i32, multiple: i32) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Let's solve a prolem with boolean logic
@@ -122,6 +127,7 @@ pub fn is_multiple(number: i32, multiple: i32) -> bool {
 /// |    1     |    1     |    1     |     1      |
 pub fn light_bulb(switch1: bool, switch2: bool, switch3: bool) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Test if either the first 2 input are true or if the 3rd one is true
@@ -151,6 +157,7 @@ pub fn light_bulb(switch1: bool, switch2: bool, switch3: bool) -> bool {
 pub fn first2_or_third(first: bool, second: bool, third: bool) -> bool {
     // Add boolean operators between the inputs to make the test pass, do not change the order of the inputs
     // Write your code here
+    todo!()
 }
 
 /// Test if the last 2 input are true or if the 1st one is true
@@ -180,6 +187,7 @@ pub fn first2_or_third(first: bool, second: bool, third: bool) -> bool {
 pub fn last2_or_first(first: bool, second: bool, third: bool) -> bool {
     // Add boolean operators between the inputs to make the test pass, do not change the order of the inputs
     // Write your code here
+    todo!()
 }
 
 /// Test if the first number is between the second and the third number
@@ -199,6 +207,7 @@ pub fn last2_or_first(first: bool, second: bool, third: bool) -> bool {
 /// ```
 pub fn is_between(number: i32, first: i32, second: i32) -> bool {
     // Write your code here
+    todo!()
 }
 
 /// Addition of 2 true bit binary numbers (false or true)
@@ -220,6 +229,7 @@ pub fn is_between(number: i32, first: i32, second: i32) -> bool {
 /// | 1 | 1 |  0  |  1   |
 pub fn half_adder(a: bool, b: bool) -> (bool, bool) {
     // Write your code here
+    todo!()
 }
 
 // Half adder are great but they are limited to adding 2 bits, if we want to be able to add any
@@ -251,4 +261,5 @@ pub fn half_adder(a: bool, b: bool) -> (bool, bool) {
 /// | 1 | 1 |  1  |  1  |  1   |
 pub fn full_adder(a: bool, b: bool, carry: bool) -> (bool, bool) {
     // Write your code here
+    todo!()
 }

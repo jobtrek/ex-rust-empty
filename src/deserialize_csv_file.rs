@@ -21,4 +21,5 @@ pub struct EnergyProduction {
 /// ```
 pub fn read_given_file_and_return_vec_of_structs(filepath: &str) -> Vec<EnergyProduction> {
     // Write your code here
+    todo!()
 }

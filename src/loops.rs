@@ -8,6 +8,7 @@
 /// ```
 pub fn create_array_with_given_number_of_elements(number_of_elements: u32) -> Vec<u32> {
     // Write your code here
+    todo!()
 }
 
 /// Write a loop that creates a suite of int from the first given parameter to the last one (inclusive)
@@ -19,6 +20,7 @@ pub fn create_array_with_given_number_of_elements(number_of_elements: u32) -> Ve
 /// ```
 pub fn create_array_with_elements_between_given_numbers(start: i32, end: i32) -> Vec<i32> {
     // Write your code here
+    todo!()
 }
 
 /// Write 2 loops that create a matrix with the given colums and rows.
@@ -35,4 +37,5 @@ pub fn create_array_with_elements_between_given_numbers(start: i32, end: i32) ->
 /// ```
 pub fn matrix_generation(rows: u32, columns: u32) -> Vec<Vec<u32>> {
     // Write your code here
+    todo!()
 }

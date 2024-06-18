@@ -9,6 +9,7 @@
 /// ```
 pub fn average(numbers: &[i32]) -> f32 {
     // Write your code here
+    todo!()
 }
 
 /// Sort all the numbers in the array by size
@@ -22,6 +23,7 @@ pub fn average(numbers: &[i32]) -> f32 {
 /// ```
 pub fn sort_array_by_size(numbers: &[i32]) -> Vec<i32> {
     // Write your code here
+    todo!()
 }
 
 /// Find the biggest and the smallest values in the array
@@ -39,6 +41,7 @@ pub fn sort_array_by_size(numbers: &[i32]) -> Vec<i32> {
 /// ```
 pub fn get_biggest_and_smallest_elements_from_array(numbers: &[i32]) -> (&i32, &i32) {
     // Write your code here
+    todo!()
 }
 
 /// Create two arrays, one with all odd numbers from the original array, another with all even numbers
@@ -52,6 +55,7 @@ pub fn get_biggest_and_smallest_elements_from_array(numbers: &[i32]) -> (&i32, &
 /// ```
 pub fn separate_odd_from_even_numbers(numbers: &[i32]) -> (Vec<i32>, Vec<i32>) {
     // Write your code here
+    todo!()
 }
 
 /// Sum the odd numbers together, and the even one together
@@ -64,4 +68,5 @@ pub fn separate_odd_from_even_numbers(numbers: &[i32]) -> (Vec<i32>, Vec<i32>) {
 /// ```
 pub fn add_odd_numbers_and_add_even_numbers(numbers: Vec<i32>) -> (i32, i32) {
     // Write your code here
+    todo!()
 }

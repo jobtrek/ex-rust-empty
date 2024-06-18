@@ -23,6 +23,7 @@ pub struct Point2D {
 impl Point2D {
     pub fn distance_with(&self, other: &Point2D) -> f32 {
         // Write your code here
+        todo!()
     }
 }
 
@@ -87,6 +88,7 @@ pub enum Shape {
 impl Shape {
     pub fn symetric_x(&self) -> Shape {
         // Write your code here
+        todo!()
     }
 }
 
@@ -145,4 +147,5 @@ pub struct Token {
 pub fn tokenize(input: String) -> Vec<Token> {
     let mut tokens: Vec<Token> = Vec::new();
     // Write your code here
+    todo!()
 }
