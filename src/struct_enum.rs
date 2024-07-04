@@ -10,6 +10,7 @@
 /// Be careful about the visibility of the fields of the struct
 pub struct Point2D {
     // Write your code here
+    todo!()
 }
 
 /// Implement a method to calculate the distance with another point
@@ -55,9 +56,11 @@ impl Point2D {
 pub enum Shape {
     Circle {
         // Write your code here
+        todo!()
     },
     Rectangle {
         // Write your code here
+        todo!()
     },
 }
 
