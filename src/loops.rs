@@ -19,8 +19,11 @@ pub fn create_array_with_given_number_of_elements(number_of_elements: u32) -> Ve
 /// assert_eq!(rust_ex::loops::create_array_with_elements_between_given_numbers(-2,3), vec![-2,-1,0,1,2,3]);
 /// ```
 pub fn create_array_with_elements_between_given_numbers(start: i32, end: i32) -> Vec<i32> {
-    // Write your code here
-    todo!()
+    let mut array: Vec<i32> = Vec::new();
+    for i in start..=end {
+        array.push(i);
+    }
+    array
 }
 
 /// Write 2 loops that create a matrix with the given colums and rows.
