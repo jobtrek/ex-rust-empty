@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.0](https://github.com/jobtrek/ex-rust/compare/v1.0.0-rc.3...v1.0.0) (2024-08-18)
+
+
+### Features
+
+* add a recursion exercice to the loops ([#27](https://github.com/jobtrek/ex-rust/issues/27)) ([c4da9a9](https://github.com/jobtrek/ex-rust/commit/c4da9a9728f6f6c4cb8dde44a0b48ec2b6493f38))
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([#47](https://github.com/jobtrek/ex-rust/issues/47)) ([81e3de7](https://github.com/jobtrek/ex-rust/commit/81e3de7d5d052f1248d224b85e0f70b9142bbed5))
+
 ## [1.0.0-rc.3](https://github.com/jobtrek/ex-rust/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2024-08-14)
 
 

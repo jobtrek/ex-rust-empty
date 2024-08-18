@@ -1,6 +1,6 @@
 # Rust exercises
 
-**v1.0.0-rc.3 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.0.0 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 > Some simple rust exercises.
 
@@ -13,6 +13,7 @@
 - [Structs and enums](./src/struct_enum.rs)
 - [Deserialize csv](./src/deserialize_csv_file.rs)
 - [Map filter reduce](./src/map_filter_reduce.rs)
+- [Recursion](./src/recursion.rs)
 
 You can use `cargo test` to try if your code works.
 

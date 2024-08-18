@@ -8,6 +8,7 @@
 /// 5. [Struct and enums](./struct_enum.rs)
 /// 6. [Deserialize csv](./deserialize_csv_file.rs)
 /// 7. [Map filter reduce](./map_filter_reduce.rs)
+/// 8. [Use recursion](./recursion.rs)
 ///
 /// Use the `cargo test` command to check your work, or directly run the test from your ide.
 pub mod arrays;
@@ -15,6 +16,7 @@ pub mod boolean;
 pub mod deserialize_csv_file;
 pub mod loops;
 pub mod map_filter_reduce;
+pub mod recursion;
 pub mod struct_enum;
 
 pub const CSV_FILE_LOCATION: &str = "2024-06-17_swisgrid_production.csv";
