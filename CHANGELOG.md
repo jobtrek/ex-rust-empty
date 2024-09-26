@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1](https://github.com/jobtrek/ex-rust/compare/v1.0.0...v1.0.1) (2024-09-13)
+
+
+### Build System
+
+* **deps:** bump peter-evans/create-pull-request from 6 to 7 ([#51](https://github.com/jobtrek/ex-rust/issues/51)) ([d18ad67](https://github.com/jobtrek/ex-rust/commit/d18ad67d63d7bc5307901aee8b23d80bd215dc5c))
+* **deps:** bump serde from 1.0.206 to 1.0.209 ([#49](https://github.com/jobtrek/ex-rust/issues/49)) ([98b9989](https://github.com/jobtrek/ex-rust/commit/98b9989d446a8fc1f140414207b8a2eb890c2a2b))
+* **deps:** bump serde from 1.0.209 to 1.0.210 ([#52](https://github.com/jobtrek/ex-rust/issues/52)) ([a22c0e5](https://github.com/jobtrek/ex-rust/commit/a22c0e5139c5fd4c9f2d276442bbd2db6919f767))
+
 ## [1.0.0](https://github.com/jobtrek/ex-rust/compare/v1.0.0-rc.3...v1.0.0) (2024-08-18)
 
 
