@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/jobtrek/ex-rust/compare/v1.0.1...v1.0.2) (2024-11-11)
+
+
+### Build System
+
+* **deps:** bump csv from 1.3.0 to 1.3.1 ([#56](https://github.com/jobtrek/ex-rust/issues/56)) ([e694279](https://github.com/jobtrek/ex-rust/commit/e694279a6973dae3e91bb6485f83a9d7e6cadb19))
+* **deps:** bump serde from 1.0.210 to 1.0.213 ([#53](https://github.com/jobtrek/ex-rust/issues/53)) ([c8fdaff](https://github.com/jobtrek/ex-rust/commit/c8fdaff7e0b6cfef3dd56da9555fc4b509d7b5eb))
+* **deps:** bump serde from 1.0.213 to 1.0.214 ([#55](https://github.com/jobtrek/ex-rust/issues/55)) ([2c3317f](https://github.com/jobtrek/ex-rust/commit/2c3317f2f17709209a8c77aa74d2bae8be6fb410))
+
 ## [1.0.1](https://github.com/jobtrek/ex-rust/compare/v1.0.0...v1.0.1) (2024-09-13)
 
 
