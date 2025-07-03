@@ -42,5 +42,26 @@ pub enum Repo<'a> {
 /// ```
 pub fn get_path_of(repo: &[Repo], current_path: &str, file: &str, position: usize) -> String {
     // Write your code here
-    todo!()
+    if position < repo.len() - 1 {
+        let result = get_path_of(repo, current_path, file, position + 1);
+        if !result.is_empty() {
+            return result;
+        }
+    }
+    let r = &repo[position];
+    match r {
+        Repo::File(f) => {
+            if *f == file {
+                return format!("{}/{}", current_path, file);
+            }
+        }
+        Repo::Repo((dir, new_repo)) => {
+            let path = format!("{}/{}", current_path, dir);
+            let result = get_path_of(new_repo, &path, file, 0);
+            if !result.is_empty() {
+                return result;
+            }
+        }
+    }
+    "".to_string()
 }
