@@ -21,5 +21,9 @@ pub struct EnergyProduction {
 /// ```
 pub fn read_given_file_and_return_vec_of_structs(filepath: &str) -> Vec<EnergyProduction> {
     // Write your code here
-    todo!()
+    let mut reader = Reader::from_path(filepath).expect("Cannot find file");
+    reader
+        .deserialize::<EnergyProduction>()
+        .map(|energy| energy.expect("Cannot deserialize"))
+        .collect()
 }

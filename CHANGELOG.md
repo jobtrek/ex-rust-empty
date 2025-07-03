@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/jobtrek/ex-rust/compare/v1.0.4...v1.0.5) (2025-03-10)
+
+
+### Build System
+
+* **deps:** bump serde from 1.0.218 to 1.0.219 ([#63](https://github.com/jobtrek/ex-rust/issues/63)) ([f93b74b](https://github.com/jobtrek/ex-rust/commit/f93b74b94951072d84b0746e640bf87a40059add))
+
 ## [1.0.4](https://github.com/jobtrek/ex-rust/compare/v1.0.3...v1.0.4) (2025-02-28)
 
 

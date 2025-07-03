@@ -10,7 +10,8 @@
 /// Be careful about the visibility of the fields of the struct
 pub struct Point2D {
     // Write your code here
-    todo!()
+    pub x: i32,
+    pub y: i32,
 }
 
 /// Implement a method to calculate the distance with another point
@@ -24,7 +25,9 @@ pub struct Point2D {
 impl Point2D {
     pub fn distance_with(&self, other: &Point2D) -> f32 {
         // Write your code here
-        todo!()
+        let x_diff = self.x - other.x;
+        let y_diff = self.y - other.y;
+        ((x_diff.pow(2) + y_diff.pow(2)) as f32).sqrt()
     }
 }
 
@@ -56,11 +59,13 @@ impl Point2D {
 pub enum Shape {
     Circle {
         // Write your code here
-        todo!()
+        center: Point2D,
+        radius: f32,
     },
     Rectangle {
         // Write your code here
-        todo!()
+        top_left: Point2D,
+        bottom_right: Point2D,
     },
 }
 
@@ -91,7 +96,28 @@ pub enum Shape {
 impl Shape {
     pub fn symetric_x(&self) -> Shape {
         // Write your code here
-        todo!()
+        match self {
+            Shape::Circle { center, radius } => Shape::Circle {
+                center: Point2D {
+                    x: -center.x,
+                    y: center.y,
+                },
+                radius: *radius,
+            },
+            Shape::Rectangle {
+                top_left,
+                bottom_right,
+            } => Shape::Rectangle {
+                top_left: Point2D {
+                    x: -top_left.x,
+                    y: top_left.y,
+                },
+                bottom_right: Point2D {
+                    x: -bottom_right.x,
+                    y: bottom_right.y,
+                },
+            },
+        }
     }
 }
 
@@ -150,5 +176,56 @@ pub struct Token {
 pub fn tokenize(input: String) -> Vec<Token> {
     let mut tokens: Vec<Token> = Vec::new();
     // Write your code here
-    todo!()
+    let mut i = 0;
+    while i < input.len() {
+        let mut current_token = String::new();
+        let c = input.chars().nth(i).unwrap();
+        tokens.push(match c {
+            '"' => {
+                i += 1;
+                while input.chars().nth(i).unwrap() != '"' {
+                    current_token.push(input.chars().nth(i).unwrap());
+                    i += 1;
+                }
+                Token {
+                    token_type: TokenType::String,
+                    value: current_token,
+                }
+            }
+            '0'..='9' => {
+                while input.chars().nth(i).unwrap().is_ascii_digit()
+                    || input.chars().nth(i).unwrap() == '.'
+                {
+                    current_token.push(input.chars().nth(i).unwrap());
+                    i += 1;
+                }
+                i -= 1;
+                Token {
+                    token_type: TokenType::Number,
+                    value: current_token,
+                }
+            }
+            '(' | ')' => Token {
+                token_type: TokenType::Parenthesis,
+                value: c.to_string(),
+            },
+            '+' | '-' | '*' | '/' => Token {
+                token_type: TokenType::Operator,
+                value: c.to_string(),
+            },
+            ';' => Token {
+                token_type: TokenType::SemiColon,
+                value: c.to_string(),
+            },
+            ' ' => {
+                i += 1;
+                continue;
+            }
+            _ => {
+                panic!("Invalid character: {}", c);
+            }
+        });
+        i += 1;
+    }
+    tokens
 }

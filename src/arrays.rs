@@ -9,7 +9,8 @@
 /// ```
 pub fn average(numbers: &[i32]) -> f32 {
     // Write your code here
-    todo!()
+    let sum: i32 = numbers.iter().sum();
+    sum as f32 / numbers.len() as f32
 }
 
 /// Sort all the numbers in the array by size
@@ -23,7 +24,9 @@ pub fn average(numbers: &[i32]) -> f32 {
 /// ```
 pub fn sort_array_by_size(numbers: &[i32]) -> Vec<i32> {
     // Write your code here
-    todo!()
+    let mut sorted = numbers.to_vec();
+    sorted.sort();
+    sorted
 }
 
 /// Find the biggest and the smallest values in the array
@@ -41,7 +44,9 @@ pub fn sort_array_by_size(numbers: &[i32]) -> Vec<i32> {
 /// ```
 pub fn get_biggest_and_smallest_elements_from_array(numbers: &[i32]) -> (&i32, &i32) {
     // Write your code here
-    todo!()
+    let biggest = numbers.iter().max().expect("No max number");
+    let smallest = numbers.iter().min().expect("No min number");
+    (biggest, smallest) // Returns values as tuple
 }
 
 /// Create two arrays, one with all odd numbers from the original array, another with all even numbers
@@ -55,7 +60,7 @@ pub fn get_biggest_and_smallest_elements_from_array(numbers: &[i32]) -> (&i32, &
 /// ```
 pub fn separate_odd_from_even_numbers(numbers: &[i32]) -> (Vec<i32>, Vec<i32>) {
     // Write your code here
-    todo!()
+    numbers.iter().partition(|&e| e % 2 != 0)
 }
 
 /// Sum the odd numbers together, and the even one together
@@ -68,5 +73,6 @@ pub fn separate_odd_from_even_numbers(numbers: &[i32]) -> (Vec<i32>, Vec<i32>) {
 /// ```
 pub fn add_odd_numbers_and_add_even_numbers(numbers: Vec<i32>) -> (i32, i32) {
     // Write your code here
-    todo!()
+    let (evens, odds): (Vec<_>, Vec<_>) = numbers.iter().partition(|&n| n % 2 != 0);
+    (evens.iter().sum(), odds.iter().sum())
 }
