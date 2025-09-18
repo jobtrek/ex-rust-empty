@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/jobtrek/ex-rust/compare/v1.0.5...v1.0.6) (2025-09-17)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 4 to 5 ([#66](https://github.com/jobtrek/ex-rust/issues/66)) ([4d1b08d](https://github.com/jobtrek/ex-rust/commit/4d1b08dd0d47f553ded36d39eb747386259a8497))
+* **deps:** bump serde from 1.0.219 to 1.0.223 ([#68](https://github.com/jobtrek/ex-rust/issues/68)) ([359b66e](https://github.com/jobtrek/ex-rust/commit/359b66e99f5d173ed8a0e45ea69cfc49426f2db3))
+
 ## [1.0.5](https://github.com/jobtrek/ex-rust/compare/v1.0.4...v1.0.5) (2025-03-10)
 
 
