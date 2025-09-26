@@ -1,6 +1,6 @@
 # Rust exercises
 
-**v1.0.6 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.0.7 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 > Some simple rust exercises.
 
