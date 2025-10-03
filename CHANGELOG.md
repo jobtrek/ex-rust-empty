@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.8](https://github.com/jobtrek/ex-rust/compare/v1.0.7...v1.0.8) (2025-10-03)
+
+
+### Build System
+
+* **deps:** bump serde from 1.0.226 to 1.0.228 ([#71](https://github.com/jobtrek/ex-rust/issues/71)) ([d27b29d](https://github.com/jobtrek/ex-rust/commit/d27b29d7328524125d25abf11ae88bcd2fdd50bd))
+
+
+### Continuous Integration
+
+* remove un necessary rustup update ([#73](https://github.com/jobtrek/ex-rust/issues/73)) ([6bfab8c](https://github.com/jobtrek/ex-rust/commit/6bfab8ced11e95875dd01277a48ae7cf3507d950))
+
 ## [1.0.7](https://github.com/jobtrek/ex-rust/compare/v1.0.6...v1.0.7) (2025-09-25)
 
 
