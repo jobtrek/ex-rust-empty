@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.10](https://github.com/jobtrek/ex-rust/compare/v1.0.9...v1.0.10) (2025-12-18)
+
+
+### Miscellaneous Chores
+
+* pin actions to sha ([#80](https://github.com/jobtrek/ex-rust/issues/80)) ([6b890f0](https://github.com/jobtrek/ex-rust/commit/6b890f0830b6f6139c2dcf634e382d9899c20c71))
+
+
+### Build System
+
+* **deps:** bump peter-evans/create-pull-request from 7 to 8 ([#78](https://github.com/jobtrek/ex-rust/issues/78)) ([9c2a37b](https://github.com/jobtrek/ex-rust/commit/9c2a37bc65440564190805676fdcc86240072db4))
+
 ## [1.0.9](https://github.com/jobtrek/ex-rust/compare/v1.0.8...v1.0.9) (2025-11-24)
 
 
