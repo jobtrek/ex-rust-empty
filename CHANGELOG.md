@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.11](https://github.com/jobtrek/ex-rust/compare/v1.0.10...v1.0.11) (2026-01-30)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 6.0.1 to 6.0.2 ([#81](https://github.com/jobtrek/ex-rust/issues/81)) ([2b5087f](https://github.com/jobtrek/ex-rust/commit/2b5087fb36a6e2afacba08287039b5cb2c9c7968))
+* **deps:** bump peter-evans/create-pull-request from 8.0.0 to 8.1.0 ([#82](https://github.com/jobtrek/ex-rust/issues/82)) ([f2a5945](https://github.com/jobtrek/ex-rust/commit/f2a5945a97ed38710552af36abf698ffd8a38334))
+
 ## [1.0.10](https://github.com/jobtrek/ex-rust/compare/v1.0.9...v1.0.10) (2025-12-18)
 
 
