@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.13](https://github.com/jobtrek/ex-rust/compare/v1.0.12...v1.0.13) (2026-03-23)
+
+
+### Build System
+
+* **deps:** bump jobtrek/sw-action from 1.3.0 to 1.4.0 ([#87](https://github.com/jobtrek/ex-rust/issues/87)) ([92c411b](https://github.com/jobtrek/ex-rust/commit/92c411b2bd44f1beb5deeeb3d24c2386a12bec4b))
+
 ## [1.0.12](https://github.com/jobtrek/ex-rust/compare/v1.0.11...v1.0.12) (2026-03-05)
 
 
