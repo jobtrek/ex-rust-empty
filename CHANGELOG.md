@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.15](https://github.com/jobtrek/ex-rust/compare/v1.0.14...v1.0.15) (2026-05-01)
+
+
+### Miscellaneous Chores
+
+* dependabot groups ([af07581](https://github.com/jobtrek/ex-rust/commit/af0758114bf5945bd57d7c3dd17ed41ba69027e1))
+* release please include author ([b6539c7](https://github.com/jobtrek/ex-rust/commit/b6539c7f8bccdeb224be03e9b99e72c88aa0625e))
+
+
+### Build System
+
+* **deps:** bump googleapis/release-please-action from 4.4.0 to 4.4.1 ([#92](https://github.com/jobtrek/ex-rust/issues/92)) ([8fe4aa8](https://github.com/jobtrek/ex-rust/commit/8fe4aa877c221fad04c0614a0baa6b97c883bcda))
+* **deps:** bump googleapis/release-please-action from 4.4.1 to 5.0.0 ([#94](https://github.com/jobtrek/ex-rust/issues/94)) ([60771ca](https://github.com/jobtrek/ex-rust/commit/60771cadb072c002de23c62677ade4ea195e5cec))
+
 ## [1.0.14](https://github.com/jobtrek/ex-rust/compare/v1.0.13...v1.0.14) (2026-04-13)
 
 
