@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.16](https://github.com/jobtrek/ex-rust/compare/v1.0.15...v1.0.16) (2026-06-09)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 6.0.2 to 6.0.3 ([#96](https://github.com/jobtrek/ex-rust/issues/96)) ([3c8cb73](https://github.com/jobtrek/ex-rust/commit/3c8cb73e89c292ebe4ce3f7475733bc5f0299650))
+* **deps:** bump jobtrek/sw-action from 1.5.0 to 1.6.0 ([#95](https://github.com/jobtrek/ex-rust/issues/95)) ([d0ec675](https://github.com/jobtrek/ex-rust/commit/d0ec6759a4a3aed8edbfe10e6635c893084e1d5d))
+
 ## [1.0.15](https://github.com/jobtrek/ex-rust/compare/v1.0.14...v1.0.15) (2026-05-01)
 
 
