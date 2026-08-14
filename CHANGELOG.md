@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.17](https://github.com/jobtrek/ex-rust/compare/v1.0.16...v1.0.17) (2026-08-14)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 6.0.3 to 7.0.0 ([#98](https://github.com/jobtrek/ex-rust/issues/98)) ([225bdd9](https://github.com/jobtrek/ex-rust/commit/225bdd98c25a56c005777142f66a7c15c752fad4))
+* **deps:** bump actions/checkout from 7.0.0 to 7.0.1 ([#100](https://github.com/jobtrek/ex-rust/issues/100)) ([aa1c388](https://github.com/jobtrek/ex-rust/commit/aa1c388bfabeee028c10748de41dd3f1a035a9b4))
+* **deps:** bump serde in the production-dependencies group ([#101](https://github.com/jobtrek/ex-rust/issues/101)) ([e6c0931](https://github.com/jobtrek/ex-rust/commit/e6c0931ef72f7c7df4e0a187b2219b4fc72ac888))
+
 ## [1.0.16](https://github.com/jobtrek/ex-rust/compare/v1.0.15...v1.0.16) (2026-06-09)
 
 
