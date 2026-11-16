@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.19](https://github.com/jobtrek/ex-rust/compare/v1.0.18...v1.0.19) (2026-11-16)
+
+
+### Build System
+
+* **deps:** bump jobtrek/sw-action from 1.7.0 to 1.8.0 ([#104](https://github.com/jobtrek/ex-rust/issues/104)) ([00469ba](https://github.com/jobtrek/ex-rust/commit/00469ba630fe769171a1077643dc06ed45f6b693))
+* **deps:** bump peter-evans/create-pull-request from 8.1.1 to 8.1.3 ([#106](https://github.com/jobtrek/ex-rust/issues/106)) ([a16f7df](https://github.com/jobtrek/ex-rust/commit/a16f7df0e8379036c5424dcee2ab875daaf511bb))
+
 ## [1.0.18](https://github.com/jobtrek/ex-rust/compare/v1.0.17...v1.0.18) (2026-10-12)
 
 
